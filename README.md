@@ -1,16 +1,48 @@
-# React + Vite
+# 🏆 Personal Tracker: Discipline XP System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Personal Tracker** is a high-performance React application designed to gamify habit formation. Unlike traditional trackers, this system uses a **League Ranking System** (inspired by Clash of Clans) where your consistency earns you "Discipline XP," allowing you to climb from Bronze to Legend status.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Key Features
 
-## React Compiler
+### ⚔️ The League System
+Your progress is tracked via **Discipline XP**. As you reach point thresholds, your rank and badge automatically upgrade:
+* **Bronze / Silver / Gold:** The foundation of discipline.
+* **Crystal / Master / Champion:** Advanced consistency.
+* **Legend:** Elite level habit mastery (20,000+ XP).
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### 📈 Smart Multi-Line Analytics
+* **Categorized Tracking:** Group habits into "Health," "Work," or "Personal."
+* **Adaptive Graphs:** Real-time Recharts integration that bridges gaps for non-daily habits (2x/3x week) using `connectNulls` logic.
+* **Visual History:** Watch your streaks climb across different frequencies in a single unified view.
 
-## Expanding the ESLint configuration
+### ⚖️ Discipline Modes
+* **Strict Mode:** High stakes. Missing a window results in a **1.5x penalty** based on your current streak.
+* **Flexible Mode:** Life-friendly. A minor **0.5x penalty** for missed days.
+* **Frequency Support:** Built-in logic for Daily, 3x Week, 2x Week, Weekly, and Monthly rhythms.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 🌑 Premium UI/UX
+* **Glassmorphism Design:** Modern, blurred background cards with sleek borders.
+* **Dark/Light Mode:** Seamless transition between themes.
+* **Mobile Responsive:** A grid-based layout that works on desktop and mobile.
+
+---
+
+## 🛠️ Technical Stack
+
+* **Frontend:** React.js
+* **Styling:** Styled-Components (CSS-in-JS)
+* **Animations:** Framer Motion
+* **Icons:** Lucide-React
+* **Charts:** Recharts
+* **State Management:** React Hooks (useState, useEffect)
+* **Persistence:** LocalStorage API
+
+---
+
+## 📦 Installation
+
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/Ronit-Waghambare/Personal-Tracker.git](https://github.com/Ronit-Waghambare/Personal-Tracker.git)
