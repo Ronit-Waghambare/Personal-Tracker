@@ -12,7 +12,9 @@ dist
 dist-ssr
 *.local
 
+# Ignore the Backups directory
 Backups/
+backups/
 
 # Editor directories and files
 .vscode/*
