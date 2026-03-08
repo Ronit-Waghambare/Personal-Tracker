@@ -1,6 +1,6 @@
-# 🏆 Personal Tracker: Discipline XP System
+# 🏆 Streak Tracker:
 
-**Personal Tracker** is a high-performance React application designed to gamify habit formation. Unlike traditional trackers, this system uses a **League Ranking System** (inspired by Clash of Clans) where your consistency earns you "Discipline XP," allowing you to climb from Bronze to Legend status.
+**Streak Tracker** is a high-performance React application designed to gamify habit formation. Unlike traditional trackers, this system uses a **League Ranking System** where your consistency earns you "XP points," allowing you to climb ranks.
 
 ---
 
