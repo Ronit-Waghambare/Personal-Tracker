@@ -49,6 +49,7 @@ The application is structured to support a **RESTful API** layer using `FastAPI`
 ## 🛠️ Technical Stack
 
 * **Frontend:** React.js
+* **Backend:** Colab, Oracle
 * **Styling:** Styled-Components (CSS-in-JS)
 * **Animations:** Framer Motion
 * **Icons:** Lucide-React
