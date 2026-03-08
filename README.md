@@ -6,12 +6,6 @@
 
 ## 🚀 Key Features
 
-### ⚔️ The League System
-Your progress is tracked via **Discipline XP**. As you reach point thresholds, your rank and badge automatically upgrade:
-* **Bronze / Silver / Gold:** The foundation of discipline.
-* **Crystal / Master / Champion:** Advanced consistency.
-* **Legend:** Elite level habit mastery (20,000+ XP).
-
 ### 📈 Smart Multi-Line Analytics
 * **Categorized Tracking:** Group habits into "Health," "Work," or "Personal."
 * **Adaptive Graphs:** Real-time Recharts integration that bridges gaps for non-daily habits (2x/3x week) using `connectNulls` logic.
